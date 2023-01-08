@@ -1,0 +1,61 @@
+---To Create React APP -------------
+npx create-react-app projectName
+
+or
+
+npm install create-react-app -g
+
+create-react-app projectName
+
+Components 2 types :
+
+*)Class Components - Stateful 
+*)function Components - Stateless
+
+class Components :
+
+life cycle hook 
+state support
+render method is must
+this keyword usage is must
+this.props
+this.state
+this.methodName
+this.variableName
+
+function Components:
+no life cycle hook but react functional hooks can be used
+not stateful by default but react functional hooks can be used
+absence of this keyword
+props.propertyName
+state.propertyName
+methodName()
+variableName
+
+
+Hooks Rules : (Introduced in version 16.8 )
+Only call hooks at top level
+
+Don't call hooks inside if condition and for loop
+
+Only call inside react function not inside javascript function;
+
+
+
+props :
+
+
+*)use props to pass data from parent to child Component
+*)props are readonly
+
+
+--Event handling ---
+
+Don't add  parenthesis it is assigning a function to a event not a function call if not it will cause infinite rendering especially in class component => onClick={method()}
+
+----Styling React Components----
+
+*) css stylesheet
+*) Inline Styling
+*) css Modules
+*) css in Js libraries
